@@ -1,0 +1,318 @@
+off - 0  ;on - 1           ----Ascii/Unicode---------- 
+
+
+s.l :- design a website
+
+p.l  :- devloper a software
+
+									computer languges 
+									
+scripting languges															programming languges
+						
+html,css,js,bootstrap ,....					(procedure oreinted programming)pop				oop
+												basic,python,.....						java,.net,c++,lisp........
+												
+												
+	security  :- Encapsulation,Abstraction
+
+	performance :-Inheritace ,Polymorphism
+	
+	
+	java :-
+	
+	
+	(1)platform independency
+	
+	
+	(2)Garbage Collector:-
+	
+	history :-
+	=======
+	
+	sunmicro system 
+	
+	greentalk(.gt)-------------------->oak --------------->java(.java)
+	
+	jdk 1.0------------------------------------------------>jdk 22[8,11,17,21]
+	
+	cmd>
+	java --version
+	
+	
+	3 editions:-
+	
+	jse/j2se:-standalone [no client-server ]				core java
+	
+	jee/j2ee:-distributed [client-server] ,web app     		 adv java
+	
+	jme /j2me:-mobile app's										minute details java
+	
+	
+	james gosling
+	
+	
+	26 alphabets
+	
+	
+		variables:-
+		=========
+		
+		syntax :-
+		
+				datatype varname;			//declaration 
+				
+				datatype varname = value;   //initialization
+				
+				
+		local variable(within the method body)		global variables(outside the method body)
+		
+													static					instance
+													
+													
+	syntax:-
+	========
+	
+	static - 		static	datatype varname = value;
+	
+	instance -      datatype varname = value;
+	
+	memory allocation :-
+	==================
+	
+	static -static prop's(var,method,constr) will gets the memory space only once when the class
+							loads  into the jvm
+	
+	instance - instance prop's will gets the memory space for every object creation.
+					
+					classname objname = new classname();  //object creation.
+					
+	
+	access:-
+	=======
+	
+	static :- Static prop's can be accessed by the class reference
+	
+	instance - Instatnce prop's can accessed by the object reference
+	
+	in memory:-
+	==========
+	
+	static - method area 
+	
+	instace - heap area
+	
+	
+	usage:-
+	======
+	
+	static - to store common data.
+	
+	instance - to store unique data.
+	
+	
+	
+	Operators :-
+	
+	a + b
+	
+	
+	ULTRA AB
+	
+	Unary Operators
+	
+	Logical Operators
+	
+	Terinary Operators
+	
+	Relational Operators
+	
+	Assignment Operators
+	
+	Arithmetic Operators
+	
+	Bitwise Operators
+	
+	ide shortcuts :-'
+	
+	ctrl + space :- suggestions
+	
+	ctrl + / :- comments
+	
+	ctrl +shift +/ :- multiline comments
+	
+	methods:-A group of statements altogether perfroms a single task
+	========
+	
+	syntax/singnature :-
+	
+			accessmodifier returntype methodname(params....){
+			
+					//body
+			}
+	
+	(1)static method:-
+	------------------
+	
+	syntax:-
+	
+		accessmodifier static returntype methodname(params....){
+			
+					//body
+			}
+	
+	(2)Dynamic method:-
+	--------------------
+	
+	syntax/singnature :-
+	
+			accessmodifier returntype methodname(params....){
+			
+					//body
+			}
+		
+		
+		class = var's + method's 
+		
+		class = class member's + member functions
+		
+		classname objectname = new classname(); 
+		
+		
+		Inheritace:-Accquring parent class properties to the child class.
+		===========	
+		
+						*code resuability
+		
+		extends							implements
+		
+		class --->class					interface--->class
+		
+		
+		class A{
+		100 METHODS
+		}
+		class B parent A{
+		20 methods + 100 mthod = 120 methods
+		}
+		
+		
+		* MI is not supported in java @class level
+		
+		*MI is supported in java @interface level
+		
+		
+		
+		class A{							class B{
+		add(int a,int b){					add(int a,int b){
+		
+		(a*b);	}}							(a+b);}}
+		
+		
+		
+		
+		class C extends A,B{
+		
+		obj.add(4,3);		//
+		
+		}
+		
+		
+		based method body :- 2 types
+		
+		
+		(1)concrete method :-the method with method body
+		
+		syntax:-
+				accessmodifier returntype methodname(params..){
+				
+				//body
+				
+				}
+		
+		(2)abstract method :-the method with out method body
+		
+		
+		syntax:- 
+		
+				accessmodifier returntype methodname(parms..);
+				
+				
+				
+		class :- it's the only collection of concrete methods
+		
+		abstract class :- it is the combination of both concrete + abstract methods
+		
+		interface :- it's the only collection of abstract methods
+		
+		
+		
+		Abstraction:-It is to hide the data
+		-----------
+		* security
+		
+		
+		interface 100%			abstract class 0-100%     class 0%
+		
+		
+		ploymorphism:-
+		------------
+		
+		(1)methodoverloading :- (method signature)
+		
+								method name is same but having diff parameters.
+									(a)type:- of params..
+									(b)order:-of params..
+									(c)no:of params..
+		
+		(2)methodoverriding :-(method body)
+		
+								method name is same but having diff method body
+								
+								
+		class Parent{
+		
+		1000Cr.()
+		
+		marriage(){
+		Kajol;
+		}
+		
+		100methos()
+		}
+		
+		class Child extends Parent{
+		
+		@Override
+		marriage(){
+		deepika;
+		}
+		
+		}
+		
+		Encapsulation:-wraps the data into a single entity/class
+		-------------
+		
+		accessmodifiers:- 
+		
+		constructor:-To initialize the objects
+		-----------
+		classname objname = new Classname();
+		
+		syntax :-  	
+					accessmodifier  classname(){		------>default costructor
+					//body
+					}
+		
+		syntax:-
+					accessmodifier classname(parms.....){ ----->parametrized constr
+					
+					/body
+					}
+		
+		NOTE :-Constructor call must be the first statement in a constructor
+		
+		NOTE :- constructor will not have return type
+		
+		*The parent file for every java file is "java.lang.Object"
+		
+		*The default package for every java file is "java.lang.*"
