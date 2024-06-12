@@ -316,3 +316,52 @@ html,css,js,bootstrap ,....					(procedure oreinted programming)pop				oop
 		*The parent file for every java file is "java.lang.Object"
 		
 		*The default package for every java file is "java.lang.*"
+		
+		
+		
+		coustmized exceptions :-
+		
+				1.The class must be the child class for parent Exception class
+				
+		
+		
+		
+H.W:-		int age;
+		
+		age<18 ====>AgeNotValidException
+		
+		
+		age>18 =====>you can go to vote
+		
+		
+		
+Array:-It is a collection similar dt elements. 
+
+		(1)int arr[] = {3,7,54,4,2,2,4,56,6};
+		
+		(2)int[] arr = new int[10];
+		
+			arr[6] = 34;
+		
+		(3)int []arr = new int[]{4,6,3,5,7,8,8,5,2,6};
+		
+	limitations:-
+	
+	(1)It is fixed in size
+	
+	(2)It will allows only homogeneous elements
+	
+	(3)It will not have any utility methods.
+	
+	
+	Collection framework :-
+	====================
+	
+	
+	Adv :-
+	
+	(1)It is growable in nature
+	
+	(2)It will allows both homogeneous/heterogeneous elements
+	
+	(3)It will have lots of utility methods.
