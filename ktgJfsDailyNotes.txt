@@ -365,3 +365,52 @@ Array:-It is a collection similar dt elements.
 	(2)It will allows both homogeneous/heterogeneous elements
 	
 	(3)It will have lots of utility methods.
+	
+	
+	util ---->Comparator --->compare(a,b); ---->nso  // a-b =97-98=-1
+	
+	lang ---->Comparable ---->compareTo(a) ---->cso	//
+	
+	
+	
+	String :-
+	======
+	
+	String var = "value";
+	
+	
+		String 				StringBuffer			StringBuilder
+	
+	immutable				mutable					mutable
+							sync					not sync
+							
+							
+							
+							
+	filehandling :-java.io.*
+	============	
+		
+		(1)To create a file  :- File
+		
+		(2)To write into a file :- FileWriter
+								   BufferedWriter
+								   PrintWriter
+		
+		(3)To read from a file :-  FileReader
+								   BufferedReader
+								   
+								   
+		
+		Serialization :- The process of converting object data to byte data is called serialization.
+		
+		DeSerialization :- The process of convering byte data to object data is called deserialization.
+		
+		
+		java 8:-
+		======
+		
+		Interface :-  It's the collection of only abstract methods
+		
+		Marker Interface :-  0 methods (Serializable)
+		
+		Functional Interface :-  (sam) single abstract method
