@@ -414,3 +414,45 @@ Array:-It is a collection similar dt elements.
 		Marker Interface :-  0 methods (Serializable)
 		
 		Functional Interface :-  (sam) single abstract method
+		
+		
+											Database:-
+											========
+apple	353
+roses	453
+tulips	342			
+oranges	234											
+					
+Data :- Raw info of any real world entites
+
+DataBase:- It is a storage where the data  is stored in an organised way and in a secured
+											way for the future access.
+				
+					
+		oracle db ----->rdbms dbms-------->tables=rows(records)+columns(fields)
+		
+		mysql --------->rdbms ------------->mysql
+		
+		SQL 
+		---
+		
+		Query :- It is like a command .To perfrom any operation in the db we will write quires.
+		
+		5 types of quires:-
+		
+		DDL(Data Definition language):-create,alter,drop,truncate,rename	(auto-commited)
+
+		DML(Data Manipulation Language):-insert,update,delete	(not auto-committed)
+		
+		DRL(Data Retrival language):- select
+		
+		DCL(Data Control language) :-grant
+		
+		TCL(Transaction control language) :-commit,rollback
+		
+		
+		drop  :- deletes entire table along with the rows
+		
+		truncate :- deletes the data in the table but not the table
+		
+		delete :- custom deletions
