@@ -456,3 +456,61 @@ DataBase:- It is a storage where the data  is stored in an organised way and in 
 		truncate :- deletes the data in the table but not the table
 		
 		delete :- custom deletions
+		
+									
+									
+									jdbc:-(java database connectivity)
+									====
+		
+		.java ---------> (translator)DRIVERS --------->database(query)
+		
+		5 steps :-
+		
+		(1)Loading driver classes
+		
+		(2)Creating the connection
+		
+		(3)create the statement
+		
+		(4)Executing the the quires
+
+		(5)Closing the connection
+		
+		
+		limitations:-
+		
+		(1)table should be created on our own
+		
+		(2)quires
+		
+		(3)same file for db prop's and  for the business logic
+		
+		(4)Exception Handling
+		
+		(5)Boiler Plate code(Repeated code)
+		
+		
+		jpa(java persistence API):-[specifications-interface]
+		-------------------------
+		
+		Advantages:-
+		
+		(1)No table creation 
+		
+		(2)No quires
+		
+		(3)No exception Handling
+		
+		(4)No boiler plate code
+		
+		(5)seperate files for db prop's and business logic
+		
+		ORM(Object Relational Mapping) Tools :- Implementation
+		
+		hibernate,ecllipselink,toplink....
+		
+		class -------->table
+		
+		variables ---->cloumn
+		
+		object ------->row
