@@ -481,7 +481,7 @@ DataBase:- It is a storage where the data  is stored in an organised way and in 
 		
 		(1)table should be created on our own
 		
-		(2)quires
+		(2)queires
 		
 		(3)same file for db prop's and  for the business logic
 		
@@ -514,3 +514,24 @@ DataBase:- It is a storage where the data  is stored in an organised way and in 
 		variables ---->cloumn
 		
 		object ------->row
+		
+		*query equilvalent methods
+		
+		EntityManagerFactory-------->Persistence(.xml)
+		
+		EntityManager
+		
+		insert ----->persist()
+		
+		update ----->merge()
+		
+		delete ----->remove()
+		
+		select ----->find()
+		
+		
+		
+		
+		
+		
+		<predefind word>
