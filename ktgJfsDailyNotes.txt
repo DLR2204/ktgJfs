@@ -515,13 +515,13 @@ DataBase:- It is a storage where the data  is stored in an organised way and in 
 		
 		object ------->row
 		
-		*query equilvalent methods
+		*query equilvalent methods  [crud  -- > create ,retrive ,update ,delete]
 		
 		EntityManagerFactory-------->Persistence(.xml)
 		
 		EntityManager
 		
-		insert ----->persist()
+		insert ----->persist()  
 		
 		update ----->merge()
 		
@@ -530,8 +530,91 @@ DataBase:- It is a storage where the data  is stored in an organised way and in 
 		select ----->find()
 		
 		
+		Build tool ---- maven
+		
+		
+		junit :- testing a piece of code
 		
 		
 		
+						spring:-
+						======
+	
+		def :- It is a non-invasive framework which is used to develop ligth weighted and 
+					lossely coupled web applications.
 		
-		<predefind word>
+				
+				invasive :-it will forces the programmer to implement the predefined api
+				
+				non-invasive :-it will not forces the programmer to implement the predefined api
+		
+				
+				heavy -weighted :-
+				
+				
+				
+	class A{
+	
+	
+	1000 methods
+	
+	}
+
+	class B extends A{
+	
+	500 methods
+	}
+	class C extends B{
+	
+	
+	1 method +500 +1000   ---------------->1501
+	}
+	
+				
+				
+				tightly coupled :-If the dependencies are very high 
+				
+				loosley coupled :-If the dependencies are very low
+		
+	spring core, spring boot, spring security,spring cloud ,spring rest,spring data jpa,.....  20+
+			
+	
+	ejb (enterprise java beans)------------------>creating heavy weighted components
+	
+	
+	spring  ------------------------------------->2003 spring 1.x
+
+													spring 6.x	
+
+		Rod johnson
+			
+	
+
+SPRING CORE :-To avoid the dependencies b/n classes to make our application as a loosley coupled
+===========					one.
+
+
+			->we are not creating the objects.
+			
+			
+			
+	*Containers :- This containers will create the objects. 2 types:-
+	
+					(1)Application Context
+					
+					(2)Bean Factory
+					
+					
+	*Dependecy Injection :- To inject the data inside an object.
+	
+				(1)setter Injection  -> <property></property>
+				
+				(2)Constructor Injection -> <constructor-arg></constructor-arg>
+				
+				(3)Autowire autowire  -> attribute
+				
+				
+	*Configurations:-
+				(1)Xml config
+				
+				(2)Annotation config.
