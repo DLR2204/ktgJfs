@@ -457,6 +457,19 @@ DataBase:- It is a storage where the data  is stored in an organised way and in 
 		
 		delete :- custom deletions
 		
+		
+		
+		To create an user account in db:-
+		
+		cmd>
+				conn /as sysdba
+				
+				create user username identified by password;
+				
+				grant connect, resource to username;
+				
+				conn username/password;
+				
 									
 									
 									jdbc:-(java database connectivity)
@@ -618,3 +631,15 @@ SPRING CORE :-To avoid the dependencies b/n classes to make our application as a
 				(1)Xml config
 				
 				(2)Annotation config.
+				
+				
+				
+Spring Boot:-
+===========
+
+Adv's:-
+------	
+		(1)Auto configuration
+		(2)Embedded server(tomcat server  :8080)
+		(3)starters  :- set of jar files
+		(4)Actuators :-will provide the status/health of our app through end point urls
