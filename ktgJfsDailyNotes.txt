@@ -3,7 +3,7 @@ off - 0  ;on - 1           ----Ascii/Unicode----------
 
 s.l :- design a website
 
-p.l  :- devloper a software
+p.l  :- devlope a software
 
 									computer languges 
 									
@@ -643,3 +643,88 @@ Adv's:-
 		(2)Embedded server(tomcat server  :8080)
 		(3)starters  :- set of jar files
 		(4)Actuators :-will provide the status/health of our app through end point urls
+		
+		
+		
+		spring mvc :-
+		----------
+		
+		controller :- it will interact with the client through http urls
+		
+		Service :- it is the mediator b/n controller and dao
+		
+		Dao /Repository :- it will holds the jpa logic of our web app
+		
+		
+		
+		Spring Rest :-
+		============
+
+webservices:-To create interaction b/n two interoperable applications
+-----------
+
+		soap :-It only supports xml format(simple object acess program)
+		
+		rest :-It supoorts xml,json,php,html,js.......(respresentational state transfer)
+		
+		
+		spring security:-
+		===============
+		
+		we can insist security to the rest apis.
+		
+								
+								Frontend:-
+								=========
+	
+	website :- collection of webpages.3 types of webpages:-
+	
+				(1)static webpages:- where the changes will not happes regularly
+				
+				(2)Dynamic webpages:- the changes will happens regularly
+				
+				(3)server webpages:-data from static and dynamic webpages will get stored here.
+	
+	
+	HTML :- hyper text markup language	--1995
+	
+			tag:-   <predefinedword>
+			
+			2 types :-
+			
+			(1)container/pair tag :-<html></html>
+			
+			(2)empty/single tag:-<br> or </br> or <br/>
+			
+			html,head,body
+			
+			
+			
+			
+		<body  class="values"> statements </body>   ====>elements
+		
+		Text Fromat tags:-
+		
+		<b></b>
+		<i></i>
+		<u></u>
+		<strike></strike>
+		<sub> </sub>
+		<sup></sup>
+		
+		(Numbering and bullets)List :-<li></li>
+		
+				2 types :-
+				(1)unordered list :-<ul></ul>
+				
+				(2)ordered list:-<ol></ol>
+				
+		link tags:-
+
+(1)text linking tags
+
+(2)img linking tag		
+
+block tags :-
+
+inline tags:-
