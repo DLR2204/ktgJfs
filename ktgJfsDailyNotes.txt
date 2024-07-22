@@ -728,3 +728,29 @@ webservices:-To create interaction b/n two interoperable applications
 block tags :-
 
 inline tags:-
+
+								css
+								===
+								
+	3 ways to inject the stylings into the html doc:
+	
+		(1)External :-cascading external style sheet to the html doc [link tag]
+		
+		(2)Internal :-inside the html doc in the head tag[style]
+		
+		(3)Inline   :-inside html elements opening tag [style attribute]
+		
+		
+		css :-
+		
+		(1)color name :- red ,olive,silver
+		
+		(2)HexaDecimal  :- #rgb(00-ff)
+		
+		(3)rgb function  :-rgb(red,green,blue)(0-255)
+		
+		(4)rgb with alpha :-rgb(red,green,blue,ap[0.0-1.0])
+		
+		(5)hsl 			:-hsl(hue(0-360) ,saturation(0-100%),luminousity(0-100%))
+		
+		(6)hsl with alpha  :-hsl(hue(0-360) ,saturation(0-100%),luminousity(0-100%),alpha)
