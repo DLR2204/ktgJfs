@@ -1,0 +1,75 @@
+<html>
+<head>
+
+<script>
+
+function percentage(){
+
+document.getElementById("perc").value = (document.getElementById("om").value/document.getElementById("mm").value)*100;
+
+var percentage = document.getElementById("perc").value;
+
+var g;
+
+switch(Math.floor(percentage/10))
+
+{ 	case 9 : g="outstanding";
+		break;
+	case 8 : g="distinction";
+		break;
+
+	case 7 : g="Average";
+		break;
+
+	case 6 : g="Improve well";
+		break;
+
+	case 5 : g="Pass";
+		break;
+
+	case 4 : g="poor";
+		break;
+
+
+	default : g="fail";
+		break;
+
+
+
+
+
+
+
+
+}
+document.getElementById("grade").value = g;
+
+}
+
+
+
+
+
+
+
+
+
+
+</script>
+</head>
+<body>
+
+<h1 >Percentage & Grade Calculator</h1>
+
+Max Marks :-<input type="text" id="mm"><br><br>
+
+Obtained Marks :-<input type="text" id="om"><br><br>
+
+<button type="button" onclick=percentage()>check</button>
+
+<center><font face="calibri" size="6">Percentage:-<input type="text" id="perc" value="%">
+					Grade:-<input type="text" id="grade">
+<br><br>
+
+</body>
+</html>
