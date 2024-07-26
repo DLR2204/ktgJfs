@@ -754,3 +754,79 @@ inline tags:-
 		(5)hsl 			:-hsl(hue(0-360) ,saturation(0-100%),luminousity(0-100%))
 		
 		(6)hsl with alpha  :-hsl(hue(0-360) ,saturation(0-100%),luminousity(0-100%),alpha)
+		
+		
+		selectors :-selectors are used to call the tags.
+		
+		(1)Tag name  h1,body,h2,p
+		
+		(2)id name (#) 
+		
+		(3)calss name( .)
+		
+		(4)Universal selector (*)    ----->to call all the tags 
+		
+		
+								javascript:-
+								===========
+		(1)To desing dynamic webpages.
+		
+		(2)To change the html content
+		
+		(3)To change the html attributes.
+		
+		(4)To change in css
+		
+		(5)To hide the data
+		
+		
+		To inject the js logic into html , we should use <script> tag.2 ways
+		
+		(1)Internal usage
+		
+		(2)External usage
+		
+		
+		
+		
+		outputs in java :-
+		
+		
+		innerHTML   :- based on the id ,contenct will be displayed on the webpage(getElementById("id"))
+		
+		document.write("text") ----Id not required
+		
+		window.alert("text") ----alert box will be displayed with the given text
+		
+		cosole.log("text")
+		
+		
+		
+		datatype varname = value;
+		
+		
+		var a= 8763485
+		
+		
+		datatypes :-  
+		
+					number,string,boolean,object,undefined.
+					
+					
+		functions :- 
+		
+		      (1)predfined functions
+			  (2)user defined functions
+			  
+			  function funname(params....){-
+			  ///body return;
+			  }
+			  
+			  
+								bootstrap:-
+								=========
+								
+		(1)Through cdn(content delivery network)
+
+		(2)Trough dowloading bootstrap files	
+					
