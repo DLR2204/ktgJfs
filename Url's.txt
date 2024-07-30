@@ -1,1 +1,2 @@
 oracle 11g db download :- https://drive.google.com/file/d/1dYNRiUcymVI77HlHc2oPqN0tVXCxfmbF/view?usp=drive_link
+Bootstrap notes :-https://getbootstrap.com/docs/5.3/getting-started/introduction/
