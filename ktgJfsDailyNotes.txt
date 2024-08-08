@@ -830,3 +830,28 @@ inline tags:-
 
 		(2)Trough dowloading bootstrap files	
 					
+			
+		<nav>
+					
+		class=nav
+		
+		
+		class=navbar
+		
+		
+											REACT:-
+											=====
+			 (1)Stateless Functional Component   == js function
+			 (2)Statefull Class Component		== js class
+			 
+			 
+			jsx  == javascript + xml
+			
+			let name = <h1>hello everyone<span>Hi</span></h1>
+			
+			
+			javascript = React.createElement('h1',null,'hello')
+			
+			
+			
+			Props :- which means attributes.These are used to pass the data b/n components
